@@ -85,93 +85,83 @@ Insurance
    ↓
 Approved
 ```
-*Permit requirements vary by vehicle type.
+*Permit requirements vary by vehicle type.*
 
 Stage-level volume loss and conversion are quantified to identify the largest actionable bottlenecks.
 
-3. Bottleneck & Segment Analysis
+### 3. Bottleneck & Segment Analysis
 
 The onboarding funnel is segmented across relevant dimensions including:
 
-City
-Vehicle type
-Acquisition channel
-Device tier
-Document type
-Verification failure reason
+- City
+- Vehicle type
+- Acquisition channel
+- Device tier
+- Document type
+- Verification failure reason
 
 The analysis focuses on identifying leaks that are large, explainable, and operationally actionable.
 
-4. Campaign Evaluation
+### 4. Campaign Evaluation
 
-CAMP_WA_002 is evaluated using:
+`CAMP_WA_002` is evaluated using:
 
-Delivery and engagement metrics
-Approval conversion
-Appropriate comparison groups
-Onboarding stage
-Campaign timing
-Observable segment composition
+- Delivery and engagement metrics
+- Approval conversion
+- Appropriate comparison groups
+- Onboarding stage
+- Campaign timing
+- Observable segment composition
 
 The analysis distinguishes association from causal impact and identifies when randomized experimentation is required before scaling spend.
 
-5. Airport Supply-Demand Analysis
+### 5. Airport Supply-Demand Analysis
 
 Airport operations are analyzed to:
 
-Identify periods of demand-supply imbalance
-Quantify unfulfilled demand
-Identify high-impact airport zones and time windows
-Analyze destination-level cancellation and return-fare patterns
-Translate findings into targeted supply interventions
-How to Run
-Google Colab — Recommended
+- Identify periods of demand-supply imbalance
+- Quantify unfulfilled demand
+- Identify high-impact airport zones and time windows
+- Analyze destination-level cancellation and return-fare patterns
+- Translate findings into targeted supply interventions
+
+---
+
+## How to Run
+
+### Google Colab (Recommended)
 
 The notebook is designed to run end-to-end in Google Colab.
 
-Click the Open in Colab button at the top of this README.
-The notebook loads all seven CSV datasets directly from this GitHub repository.
-Run the notebook cells sequentially from top to bottom.
-No manual dataset upload or local file-path configuration is required.
-The notebook performs the complete analysis and generates the tables, visualizations, findings, and recommendations.
-Local Jupyter Notebook
+1. Click the **Open in Colab** button at the top of this README.
+2. The notebook loads all seven CSV datasets directly from this GitHub repository.
+3. Run the notebook cells sequentially from top to bottom.
+4. No manual dataset upload or local file-path configuration is required.
+5. The notebook performs the complete analysis and generates the tables, visualizations, findings, and recommendations.
 
-Clone the repository:
+### Local Jupyter Notebook
 
-git clone https://github.com/AkshayJKulkarni/Mobility-Supply-Analytics.git
-cd Mobility-Supply-Analytics
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/AkshayJKulkarni/Mobility-Supply-Analytics.git](https://github.com/AkshayJKulkarni/Mobility-Supply-Analytics.git)
+   cd Mobility-Supply-Analytics
+   ```
+ 2. Install the dependencies : pip install pandas numpy matplotlib jupyter
+ 3. Start the jupyter notebook : jupyter notebook
+ 4. Open Captain_Acquisition_&_Supply.ipynb.
+Run all notebook cells sequentially from top to bottom.
 
-Install the required dependencies:
+### The notebook loads the datasets directly from the GitHub repository, so no manual dataset upload or file-path configuration is required.
 
-pip install pandas numpy matplotlib jupyter
+### Reproducibility
+- The notebook is designed to run end-to-end from the raw CSV datasets without relying on precomputed analytical outputs.
 
-Start Jupyter Notebook:
+- The analysis can be reproduced using either Google Colab or a local Jupyter Notebook environment.
 
-jupyter notebook
+- Tools: Python, Pandas, NumPy, Matplotlib, Jupyter Notebook, Google Colab, Git and GitHub.
 
-Open:
-
-Captain_Acquisition_&_Supply.ipynb
-
-Run all cells sequentially.
-
-Reproducibility
-
-The notebook is designed to run end-to-end from the raw CSV datasets without relying on precomputed analytical outputs.
-
-For the recommended Colab workflow, the datasets are loaded directly from the GitHub repository. This allows the complete analysis to be reproduced without manually uploading the datasets.
-
-The analysis is implemented using:
-
-Python
-Pandas
-NumPy
-Matplotlib
-Jupyter Notebook
-Google Colab
-Git
-GitHub
-Project Structure
+### Project Structure
+```text
 Mobility-Supply-Analytics/
 │
 ├── README.md
@@ -186,15 +176,13 @@ Mobility-Supply-Analytics/
 ├── airport_trips.csv
 │
 └── .gitignore
-Scope
+```
 
-The analysis covers:
+### Scope
 
-Driver acquisition and onboarding conversion
-Document verification friction
-Campaign effectiveness
-Airport supply-demand imbalance
-Post-trip destination and return-fare behavior
-Data-driven operational recommendations
-Approved
-
+- Driver acquisition and onboarding conversion
+- Document verification friction
+- Campaign effectiveness
+- Airport supply-demand imbalance
+- Post-trip destination and return-fare behavior
+- Data-driven operational recommendations
