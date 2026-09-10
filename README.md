@@ -1,6 +1,6 @@
 # Mobility Supply Analytics
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AkshayJKulkarni/Mobility-Supply-Analytics/blob/main/Captain_Acquisition_%26_Supply.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AkshayJKulkarni/Mobility-Supply-Analytics/blob/main/Captain_Acquisition_and_Supply.ipynb)
 
 End-to-end analytics of driver acquisition, onboarding conversion, campaign effectiveness, and airport supply-demand dynamics using Python, statistical analysis, and data-driven experimentation.
 
