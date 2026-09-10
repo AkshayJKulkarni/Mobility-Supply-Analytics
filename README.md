@@ -83,6 +83,8 @@ Fitness
    ↓
 Insurance
    ↓
+Approved
+```
 *Permit requirements vary by vehicle type.
 
 Stage-level volume loss and conversion are quantified to identify the largest actionable bottlenecks.
