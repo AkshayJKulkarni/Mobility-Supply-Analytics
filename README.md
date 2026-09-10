@@ -137,7 +137,7 @@ The notebook is designed to run end-to-end in Google Colab.
 2. The notebook loads all seven CSV datasets directly from this GitHub repository.
 3. Run the notebook cells sequentially from top to bottom.
 4. No manual dataset upload or local file-path configuration is required.
-5. The notebook performs the complete analysis and generates the tables, visualizations, findings, and recommendations.
+5. The notebook performs the complete analysis and generates the tables, findings, and recommendations.
 
 ### Local Jupyter Notebook
 
@@ -148,7 +148,7 @@ The notebook is designed to run end-to-end in Google Colab.
    ```
  2. Install the dependencies : pip install pandas numpy matplotlib jupyter
  3. Start the jupyter notebook : jupyter notebook
- 4. Open Captain_Acquisition_&_Supply.ipynb.
+ 4. Open Captain_Acquisition_and_Supply.ipynb.
 Run all notebook cells sequentially from top to bottom.
 
 ### The notebook loads the datasets directly from the GitHub repository, so no manual dataset upload or file-path configuration is required.
